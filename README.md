@@ -1,4 +1,4 @@
-For the backend files related to this project, click here: [https://github.com/j-zarr/P4]
+For the backend files related to this project, click here: [https://github.com/julie-anz/P4]
 
 # Client
 
