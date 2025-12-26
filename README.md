@@ -1,4 +1,4 @@
-For the backend files related to this project, click here: [https://github.com/julie-anz/P4]
+For the backend files related to this project, click here: [https://github.com/julie-anz/online-grocer-app-backend]
 
 # Client
 
