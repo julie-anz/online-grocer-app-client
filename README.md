@@ -1,5 +1,27 @@
 For the backend files related to this project, click here: [https://github.com/julie-anz/online-grocer-app-backend]
 
+## Screenshots
+
+### Login
+![Login page](screenshots/login.png)
+
+### Shopping
+![Product catalog](screenshots/shop.png)
+
+![Shopping cart](screenshots/cart.png)
+
+![Checkout](screenshots/checkout.png)
+
+### Login required
+Guests can browse, but must log in to add items to their cart.
+
+![Must be logged in to add items to cart](screenshots/login-required.png)
+
+### Admin portal
+Admins are taken straight to the admin portal, where they can add and edit products.
+
+![Admin portal](screenshots/admin.png)
+
 # Client
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.8.
