@@ -3,7 +3,8 @@ import { NgModule } from '@angular/core';
 import { FormsModule,ReactiveFormsModule } from '@angular/forms';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { HttpClientModule } from '@angular/common/http';
+import { HttpClientModule, HTTP_INTERCEPTORS } from '@angular/common/http';
+import { AuthInterceptor } from './helpers/auth.interceptor';
 import { SearchPipe } from './pipes/search.pipe';
 import { SharedDataService } from './services/shared-data.service';
 import { BannerComponent } from './components/banner/banner.component';
@@ -55,7 +56,7 @@ import { MatIconModule } from '@angular/material/icon';
     MatInputModule,
     MatIconModule
   ],
-  providers: [SharedDataService],
+  providers: [SharedDataService, { provide: HTTP_INTERCEPTORS, useClass: AuthInterceptor, multi: true }],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
